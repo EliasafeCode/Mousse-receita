@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+body * {
+    
+}
+body {
+    width: 100%;
+    background-color: #ffd1dc;
+    font-family: "Lora", 'Times New Roman', Times, serif;
+}
+.section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.receita-container {
+    min-width: 300px;
+    max-width: 600px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+#contain-img {
+    padding: 25px 25px 15px 25px;
+    display: flex;
+    justify-content: center;
+}
+#contain-img img {
+    height: 280px;
+    width: 100%;
+    border-radius: 10px;
+}
+#descricao-receita {
+    padding: 20px 25px;
+}
+#descricao-receita h1 {
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+#descricao-receita p {
+    font-size: 1.2em;
+}
+.tempo-preparo {
+    padding: 20px 25px 15px 25px;
+}
+.tempo-preparo h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.tempo-preparo ul {
+    padding: 0 0 5px 19px;
+}
+.tempo-preparo ul li {
+    margin-bottom: 5px;
+}
+.tempo-preparo ul li p {
+    font-size: 1.1em;
+}
+.ingredientes {
+    padding: 12px 25px 15px 25px;
+}
+.ingredientes h1 {
+    font-size: 30px;
+}
+.ingredientes ul {
+    padding: 19px 0px 15px 19px;
+}
+.ingredientes ul li {
+    margin-bottom: 5px;
+}
+.ingredientes ul li p {
+    font-size: 1.1em;
+}
+.intrucoes {
+    padding: 20px 25px 15px 25px;
+}
+.intrucoes ol {
+    padding: 20px;
+}
+.intrucoes ol li {
+    margin-bottom: 15px;
+}
+.intrucoes ol li span {
+    font-weight: 600;
+}
+.intrucoes ol li p {
+    font-size: 1.1em;
+}
+.informacao-nutricional {
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
